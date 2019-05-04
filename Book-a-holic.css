@@ -1,0 +1,154 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+	font-size: 20px;
+}
+
+html,body
+{
+	font-family: 'PT Sans Narrow', sans-serif;
+	color:#fff; 
+	position: relative;
+}
+
+a
+{
+	
+	color: white;
+	text-decoration: none;
+	padding-bottom: 10px;
+	
+}
+
+a:visited,
+a:hover
+{
+	border-bottom:1px solid white;
+}
+
+button
+{
+	border: 1px solid black;
+	border-radius:5px;
+	padding: 10px;
+	font-size: 80%;
+	background: rgba(255,255,255,0.2);
+}
+
+.row
+{
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+
+ul li
+{
+	list-style:none;
+	display: inline-block;
+	font-size: 80%;
+	float: left;
+	margin-top: 10px;
+	margin-right:20px; 
+	vertical-align: baseline;
+	overflow: hidden;
+}
+
+/*Heading And front Page*/
+
+header
+{
+	background:linear-gradient(rgba(0,0,0,0.9),rgba(143,57,56,0.3),rgba(0,0,0,0.7)),url("http://i.huffpost.com/gen/1976688/images/o-BOOK-COFFEE-facebook.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+
+nav
+{
+	padding: 10px;
+}
+
+.logo
+{
+	float: left;
+	text-align: center;
+	margin-left:20px; 
+}
+
+.logo i
+{
+	font-size: 30px;
+}
+
+.logo p
+{
+	font-size: 70%;
+
+}
+
+.nav-select
+{
+	float: right;
+}
+
+
+
+nav:after
+{
+	border-bottom: 2px solid black;  
+}
+
+.front-intro
+{
+	position: absolute;
+	top: 30%;
+	right: 10%;
+}
+
+.front-intro blockquote 
+{
+	display: block;
+	font-family: 'Dancing Script', cursive;
+	font-size: 40px;
+	margin: 40px 0;
+}
+
+.front-intro blockquote cite
+{
+	float: right;
+}
+
+.btn-intro
+{
+	display: block;
+	text-align: right;
+	/*margin: 20px 0;*/
+}
+
+.bottom-intro
+{
+	display: block;
+	position: absolute;
+	bottom: 10%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+}
+
+.bottom-intro div
+{
+	display: inline;
+	float: left;
+	margin: 10px;
+
+}
+
+.bottom-intro div:nth-of-type(odd)
+{
+	margin-top: 20px;
+}
+
+
+

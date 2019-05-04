@@ -1,0 +1,30 @@
+.upper_container
+{
+	background-color:#fafafa;
+	box-shadow: 0px 4px 4px #888888;
+	 
+}
+
+.fragments
+{
+	width: 50%;
+	margin:10px 25%;
+	
+}
+
+.lower_container
+{
+	width: 50%;
+	margin:10px 25%;
+}
+
+p
+{
+	padding: 15px;
+}
+
+.list_of_options
+{
+	padding: 0 10%;
+}
+

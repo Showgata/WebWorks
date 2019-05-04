@@ -1,0 +1,40 @@
+body{
+
+	padding-top: 10%;
+	font-family: 'Raleway', sans-serif;
+	
+	background: url("https://images6.alphacoders.com/317/thumb-1920-317318.jpg");
+	background-size: cover;
+	color: white;
+
+}
+
+hr
+{
+	width: 130px;
+}
+
+#india
+{
+	color: #0f0f0f;
+	text-shadow:2p;
+}
+
+html
+{
+	height: 100%;
+}
+
+
+.content
+{	
+	text-align: center;
+}
+
+h1
+{
+
+	font-weight: 400;
+	font-size: 5em;
+}
+

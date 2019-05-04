@@ -1,0 +1,19 @@
+
+img
+{
+	width:30%;
+	height:30%; 
+	float: left;
+	margin:1.66%;
+}
+
+p
+{
+	margin:1.66%;
+	font-family: 'Fresca', sans-serif;
+	font-size: 30px;
+	border-bottom: 3px solid black;
+	padding-bottom: 10px;
+	
+
+}

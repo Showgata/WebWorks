@@ -1,0 +1,27 @@
+body
+{
+	border: 20px solid #4122aa;
+	width: 50%;
+	margin:20px auto;
+	padding: 20px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.p
+{
+	border-left: 4px solid #1122aa;
+	padding: 6px;
+}
+
+.date
+{
+	text-transform:uppercase; 
+	color: #aa2200;
+}
+
+.blog
+{
+	border-bottom: 2px dashed grey;
+	padding-bottom: 20px; 
+	margin-bottom: 30px;
+}

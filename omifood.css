@@ -1,0 +1,17 @@
+/*font-family: 'Lato', sans-serif;*/
+
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+
+html
+{
+	color: #555;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: 30px;
+	text-rendering:optimizeLegibility;
+}

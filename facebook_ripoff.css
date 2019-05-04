@@ -1,0 +1,122 @@
+
+/*dark_blue_container*/
+.blue_container
+{
+	background-color:#3B5998; 
+	width:1349px;
+	height: 82px; 
+	padding-top: 13px;
+
+}
+
+.container
+{
+	width:980px;
+}
+
+.blue_container .container .facebook_logo h1
+{
+	font-weight: 700;
+	width: 170px;
+	height:34px;
+	color: white;
+	margin-top:17;
+	margin-bottom: 0;
+	padding-left: 15px;
+}
+
+.facebook_logo
+{
+	width: 400px;
+	float: left;
+}
+
+.Login
+{
+	
+	width: 490px;
+	float: right;
+
+}
+
+.blue_container .container .Login td
+{
+	
+	color: white;
+
+
+}
+
+.blue_container .container .Login td input
+{
+	width: 150px;
+	height: 24;
+
+}
+
+.blue_container .container .Login td
+{
+	font-size: 12px;
+	padding-left: 14px;
+	
+}
+
+.blue_container .container .Login input[type="submit"]
+{
+	width: 48px;
+	height: 24px;
+	background-color:#4267B2;
+	border: 1px solid #29487D;
+	padding: 0 6px; 
+}
+
+#lower_info
+{
+	padding-top: 6px;
+	color:#8CB4C4;
+}
+
+/*light_blue_container*/
+.light_blue_container
+{
+	background-color: #e9ebee;
+	width: 1349px;
+	height: 599px;
+	
+}
+
+
+.form-group input
+{
+	padding: 8px 10px;
+	border: 1px solid #bdc7d8;
+	margin: 10px 0px;
+}
+
+.form_signup
+{
+	max-width: 400px;
+}
+
+
+.container .col-lg-6
+{
+	padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

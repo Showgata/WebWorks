@@ -1,0 +1,75 @@
+body
+{
+	background-color: #232323;
+	margin: 0;
+	font-family: 'Zilla Slab', serif;
+}
+
+#container
+{
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.Difficulty
+{
+	
+	margin: 5px;
+	padding: 5px; 
+}
+
+.line-option
+{
+	background-color:blue;
+}
+
+button
+{
+	border:none;
+	background: none;
+	color: white;
+	font-family: 'Zilla Slab', serif;
+}
+
+button:hover
+{
+	color: blue;
+	background:white;
+}
+/*#reset
+{
+	color: white;
+	border: 1px solid #999;
+	margin: 5px;
+	padding: 5px; 
+}*/
+
+.result
+{
+	display: inline-block;
+	width: 50%;
+	color: white;
+
+}
+
+.squares
+{
+	background-color:#232323;	 
+	width: 30%;
+	margin: 1.66%;
+	float: left;
+	padding-bottom: 30%;
+}
+
+h1
+{
+	text-align: center;
+	color: white;
+}
+
+h2
+{
+	text-align: center;
+	color: white;
+
+}

@@ -1,0 +1,276 @@
+*
+{
+	margin:0;
+	padding: 0;
+	box-sizing:border-box; 
+}
+
+html,body
+{
+	font-family: Circular,Helvetica,Arial,sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #222326;
+	text-rendering:optimizeLegibility;
+
+}
+
+section
+{
+	margin-bottom:50px; 
+	padding: 0 30px;
+}
+
+h2
+{
+	margin-top: 50px;
+	text-align: center;
+	font-weight: 700;
+	font-size: 250%;
+}
+
+h2:after
+{
+	display: block;
+	height: 2px;
+	content: "";
+	background-color: #2ecc71;
+	width: 150px;
+	margin: 20px auto;
+}
+
+
+h3
+{
+	margin: 10px 0;
+	font-size: 110%;
+}
+
+p
+{
+	color:white;
+}
+
+.row
+{
+	width: 1140px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+a
+{
+	text-decoration: none;
+	color: #eee;
+}
+
+ul 
+{
+	list-style: none;
+	float: right;
+}
+
+
+.btn
+{
+	margin:0 5px;
+	border: 1px solid transparent;
+	border-radius: 200px;
+	
+	padding: 14px; 
+}
+
+.btn-full:link,
+.btn-full:visited
+{
+	background:  #25a25a;
+}
+
+.btn-full:active,
+.btn-full:hover
+{
+	background: #2ecc71;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited
+{
+	border:1px solid white ;
+}
+
+.btn-ghost:active,
+.btn-ghost:hover
+{
+	border:1px solid  #25a25a ;
+}
+
+
+
+.main-nav li
+{
+	display: inline-block;
+	margin-right: 40px;
+}
+
+.main-nav
+{
+	margin-top:30px;
+	font-weight: 600; 
+}
+
+.logo
+{
+	display: inline-block;
+	max-width: 300px;
+	margin: 20px;
+}
+
+.logo span 
+{
+	font-size: 250%;
+}
+
+.logo span p
+{
+	font-size: 70%;
+	display: inline-block;
+	float: right;
+	margin-left:5px;
+	font-weight: 700; 
+}
+
+nav
+{
+	border-bottom:2px solid black;
+	height: 80px;
+	background-color: black;
+	color: #eee; 
+}
+
+nav .row
+{
+	height: 100%;
+}
+
+.logo span p .copy
+{
+	font-size: 30%;
+	vertical-align: super;
+}
+
+header
+{
+	background: url("http://www.aspersnorthampton.co.uk/imgmin/backgrounds/Live-Music.jpg");
+	height: 100vh;
+	background-size:cover;
+	background-position:center; 
+	background-attachment:fixed;  
+}
+
+.intro-title
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%,-50%); 
+	
+}
+
+.intro-title p
+{
+	font-size: 350%;
+	margin-bottom:30px; 
+
+}
+
+
+/*------------------------------------*/
+/*Section Explore*/
+/*-----------------------------------*/
+
+.box
+{
+	text-align: center;
+}
+
+.box img
+{
+	width: 100%;
+	height: auto;
+	margin: 15px 0;
+}
+
+.box p
+{
+	margin-top: 10px;
+	color:#11cc61; 
+	font-size: 95%;
+}
+
+/*-------------------------------------------*/
+/*Artist*/
+/*-------------------------------------------*/
+
+.artist-img
+{
+	position: relative;
+    float: left;
+    width:  100%;
+    height:600px;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    opacity: 0.5;
+    background: black;
+}
+
+.artist-box
+{
+	margin: 0;
+	overflow: hidden;
+}
+
+.section-artist
+{
+	padding: 0;
+}
+
+.section-artist .img-gallery
+{
+	width: 100%;
+	margin: 0;
+}
+
+
+.category ul 
+{
+	display: none;
+}
+
+.category  
+{
+	height: auto;
+}
+
+.category:hover .genre,
+.category:active .genre
+{
+	margin-right: 15px;
+	position: absolute;
+	width: 15%;
+	/*padding: px; */
+	list-style: square;
+	text-align: center;
+	background-color:rgba(0,0,0,0.9); 
+	/*float: none;*/
+	display: block;
+	transform:translate(-80%,0%); 
+}
+
+.category li
+{
+	padding: 10px;
+	width: 100%;
+	border-bottom: 1px solid white;
+} 
+

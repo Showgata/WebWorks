@@ -1,0 +1,702 @@
+-------------------------------------
+/*BASIC SETUP*//*/
+/*-------------------------------------*/
+
+
+.clear-fix{zoom:1;}
+.clear-fix:after
+{
+	content: ".";
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+
+*
+{
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	
+}
+
+h1
+{
+	margin: 0;
+	color: #fff;
+	font-weight: 100;
+	text-transform: uppercase;
+	font-size: 200%;
+	letter-spacing: 1px;
+	word-spacing: 3px;
+
+}
+
+html,body
+{
+	color: #555;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: 20px;
+	text-rendering:optimizeLegibility;
+	overflow-x:hidden;
+}
+
+.row
+{
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+header
+{
+	background-image:-webkit-gradient(linear,left top, left bottom,from(rgba(0,0,0,0.6)),to(rgba(0,0,0,0.6))) ,url("Omnifood Contents/hero.jpg");
+	background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url("Omnifood Contents/hero.jpg"); 
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.hero-text-box
+{
+	position: absolute;
+	width: 1140px;
+	top: 50%;
+	left: 50%;
+	-webkit-transform:translate(-50%,-50%);
+	transform:translate(-50%,-50%);
+
+}
+
+.btn:link,
+.btn:visited,
+input[type="submit"]
+{
+	margin-top:10px; 
+	
+	display: inline-block;
+	padding: 10px 30px;
+	font-weight: 300;
+	text-decoration: none;
+	border-radius:200px;
+
+}
+/*--------------------------------------------*/
+/*//link and visited intro button////////////////*/
+/*--------------------------------------------*/
+.btn-full:link,
+.btn-full:visited,
+input[type="submit"]
+{
+	background-color: #e67e22;
+	border: 1px solid #e67e22;
+	color: #fff;
+	
+	margin-right:15px; 
+	 
+}
+
+.btn-ghost:link,
+.btn-ghost:visited
+{
+	border: 1px solid #e67e22;
+	color:  #e67e22;
+}
+/*--------------------------------------------*/
+/*Hover//////////////////////////////////////////////////*/
+/*--------------------------------------------*/
+.btn:hover,
+.btn:active,
+input[type="submit"]:hover,
+input[type="submit"]:active
+{
+	background-color:#cf6d17;
+	transition: background-color 0.3s,color 0.3s;
+	-webkit-transition: background-color 0.3s,color 0.3s;
+	-moz-transition: background-color 0.3s ,color 0.3s;
+}
+
+
+.btn-full:hover,
+.btn-full:active
+{
+	background-color: #cf6d17;
+	border: 1px solid #cf6d17;
+	color: #fff;
+	 
+}
+
+.btn-ghost:hover,
+.btn-ghost:active
+{
+	border: 1px solid #cf6d17;
+	color:  #fff;
+}
+
+.sticky .main-nav{margin: 15px 0;}
+
+.sticky
+{
+	position: fixed;
+	top:0;
+	left::0;
+	width: 100%;
+	background-color: rgba(255,255,255,0.98);
+	box-shadow: 0 2px 2px #efefef;
+	z-index: 9999;
+}
+
+.sticky .logo{display: none;}
+
+.sticky .logo-black
+{
+	display: block;
+}
+
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited
+{
+	padding: 15px 0;
+	color: #555;
+
+}
+
+
+/*-----------------------------------------*/
+/*Header 
+/*------------------------------------------*/
+
+.logo
+{
+	height: 100px;
+	width: auto;
+	float: left;
+	margin-top: 20px;	
+}
+
+.logo-black
+{
+	display: none;
+	height: 50px;
+	width: auto;
+	float: left;
+	margin: 5px 0;
+}
+
+.main-nav
+{
+	float: right;
+	list-style: none;
+	margin: 40px; 
+}
+
+.main-nav li
+{
+	display: inline-block;
+	margin-left: 40px;
+	
+}
+
+/*Navvigation Buttons */
+.main-nav li a:link,
+.main-nav li a:visited
+{
+	padding: 8px 0;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 90%;
+	border-bottom: 2px solid transparent;
+	
+}
+
+.main-nav li a:hover,
+.main-nav li a:active
+{
+	
+	border-bottom: 2px solid #cf6d17;
+	transition: border-bottom 0.2s;
+	-webkit-transition: border-bottom 0.2s;
+	-moz-transition: border-bottom 0.2s;
+}
+
+/*----------------------------------------------*/
+/*section*/
+/*----------------------------------------------*/
+
+section
+{
+	padding: 60px 0;
+}
+
+h2
+{
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	font-size: 180%;
+	text-align: center;
+	
+}
+
+h2:after
+{
+	display: block;
+	height: 2px;
+	content: "";
+	background-color: #cf6d17;
+	width: 150px;
+	margin: 10px auto;
+}
+
+.long-copy
+{
+	line-height: 145%;
+	width: 70%;
+	margin-left:15%;
+	margin-bottom:20px;  
+}
+
+.box p
+{
+	line-height: 154%;
+	font-size: 80%;
+}
+
+h3
+{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.icon-big
+{
+	font-size: 350%;
+	display: block;
+	color: #cf6d17;
+	margin: 10px 0;
+	text-align: center;
+}
+
+/*----------------------------------------*/
+/*Meal showcase section*/
+/*----------------------------------------*/
+
+.section-meals
+{
+	padding: 0;
+
+}
+
+.meal-showcase
+{
+	list-style: none;
+	width:100%;
+}
+
+.meal-showcase li
+{
+
+	display: block;
+	float: left;
+	width: 25%; 
+}
+
+.meal-photo
+{
+	width: 100%;
+	margin: 0;
+	overflow: hidden ;
+	background-color: black;
+}
+
+.meal-photo img
+{
+	opacity: 0.7;
+	width: 100%;
+	height: auto;
+	-webkit-transform:scale(1.15);
+	transform:scale(1.15);
+	-webkit-transition:opacity 0.5s, -webkit-transform 0.5s;
+	transition:opacity 0.5s, -webkit-transform 0.5s;
+	transition:transform 0.5s, opacity 0.5s;
+	transition:transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
+}
+
+.meal-photo img:hover
+{
+	opacity: 1;
+	-webkit-transform:scale(1.03);
+	transform:scale(1.03);
+}
+
+/*----------------------------------------------*/
+/*How it works section*/
+/*----------------------------------------------*/
+
+.section-steps
+{
+	background-color:#efefef;
+}
+
+.steps-box
+{
+	margin-top: 30px;
+}
+
+.steps-box:first-child
+{
+	text-align: right;
+	padding-right: 3%;
+
+}
+
+
+.steps-box:last-child
+{
+	padding-left: 3%;
+	margin-top: 70px;
+}
+
+
+.app_screen
+{
+	width: 40%;
+}
+
+.works-step
+{
+	margin-bottom: 50px;
+}
+
+
+.works-step:last-of-type
+{
+	margin-bottom: 80px;
+}
+
+.individual-steps 
+{
+	margin-top: 30px;
+}
+
+.individual-steps div
+{
+	text-align: center;
+	display: inline-block;
+	color: #cf6d17;
+	border: 2px solid #cf6d17;
+	border-radius: 50%; 
+	height: 50px;
+	width:50px;
+	padding: 10px;
+	font-weight: 700;
+	float:left; 
+	margin-right: 20px;
+}
+
+.works-step p
+{
+	display: inline;
+}
+
+.btn-app:link,
+.btn-app:active
+{
+	border: 0;
+	text-decoration:none;
+
+}
+
+
+
+
+.btn-app img
+{ 
+	height: 50px;
+	width: auto;
+	margin-right:10px; 
+}
+
+/*---------------------------------------------------*/
+/*City Section*/
+/*----------------------------------------------------*/
+
+.box img
+{
+	width: 100%;
+	height: auto;
+	margin-bottom: 15px;
+
+}
+
+.city-feature
+{
+	margin-top: 10px;
+}
+
+.icon-small
+{
+	display: inline;
+	width: 30px;
+	text-align: center;
+	color: #cf6d17;
+	font-size: 120%;
+	margin-right: 10px; 
+	line-height: 120%;
+	vertical-align: middle;
+	margin-top:-5px; 
+}
+
+a:link,
+a:active
+{
+	color:#cf6d17;
+	text-decoration: none;
+	border-bottom:1px solid #cf6d17;
+	padding-bottom: 2px;
+	-webkit-transition:border 0.3s,color 0.3s;
+	transition:border 0.3s,color 0.3s;
+
+
+}
+
+a:hover,
+a:visited
+{
+	color:#555;
+	text-decoration: none;
+	border-bottom:1px solid transparent;
+	padding-bottom: 1px;
+
+
+}
+
+/*--------------------------------------*/
+/*customer testimonial*/
+/*--------------------------------------*/
+
+.section_testimonials
+{
+	background-image:-webkit-gradient(linear,left top, left bottom,from(rgba(0,0,0,0.8)),to(rgba(0,0,0,0.8))) ,url("Omnifood Contents/back-customers.jpg");
+	background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)) ,url("Omnifood Contents/back-customers.jpg");
+	background-size: cover;
+	color: white;
+	background-attachment: fixed;
+}	
+
+blockquote
+{
+	padding:2%;
+	line-height: 145%;
+	position: relative;
+
+}
+
+cite
+{
+	font-size: 90%;
+	margin-top: 25px;
+	display: block;
+
+}
+
+cite img
+{
+	height: 45px;
+	border-radius: 50%;
+	margin-right: 12px;
+	vertical-align: middle;
+}
+
+blockquote:before
+{
+	content: "\201C";
+	font-size: 500%;
+	display: block;
+	position: absolute;
+	top:1px;
+	left: -3px; 
+}
+
+.box-test
+{
+	margin-top: 70px;
+}
+
+/*--------------------------------------------------------------*/
+/*Sign Up Section*/
+/*--------------------------------------------------------------*/
+
+.section-plans
+{
+	background-color:#efefef;
+}
+
+
+.meals-plan
+{
+	background-color: white;
+	border-radius:10px; 
+	width: 90%;
+	margin: 0 auto;
+	-webkit-box-shadow: 0 5px 5px #ababab;
+	box-shadow: 0 5px 5px #ababab;
+	
+}
+
+.catalog-plan
+{
+	list-style: none;
+	margin-left: 20px;
+}
+
+.meals-plan div
+{
+	padding: 15px;
+	border-bottom:1px solid #fafafa; 
+}
+
+.plan-price
+{
+	font-size: 300%;
+	margin:15px 0;
+	font-weight:100;
+	color: #cf6d17;  
+}
+
+.plan-price-meal
+{
+	font-size:90%; 
+}
+
+.plan-price span
+{
+	font-size: 30%;
+
+}
+
+.meals-plan div:last-child
+{
+	text-align: center;
+}
+
+.meals-plan div:first-child
+{
+	background-color: #f9f9f9;
+}
+
+/*-----------------------------------*/
+/*Contacts*/
+/*------------------------------------*/
+
+.contact-form
+{
+	width: 60%;
+	margin: 0 auto;
+}
+
+input[type="text"],input[type="email"],select,textarea
+{
+	width: 100%;
+	padding: 7px;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+}
+
+textarea
+{
+	height: 100px;
+}
+
+input[type="checkbox"]
+{
+	margin: 10px 5px 10px 0;
+}
+
+*:focus
+{
+	outline: none;
+}
+
+/*----------------------------------*/
+/*Footer*/
+/*----------------------------------*/
+
+footer
+{
+	padding: 20px 0 50px 0;
+	background-color: #343;
+	color:#999;
+}
+
+.footer-nav
+{
+	list-style: none;
+	float: left;
+
+}
+
+.social-links
+{
+	list-style: none;
+	float: right;
+}
+
+.footer-nav li,
+.social-links li
+{
+	display: inline-block;
+	margin-right:10px; 
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child
+{
+	margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:active,
+.social-links li a:link,
+.social-links li a:active
+{
+	border: 0;
+	text-decoration:none;
+	color:#999;
+}
+
+
+.footer-nav li a:hover,
+.footer-nav li a:visited,
+.social-links li a:hover,
+.social-links li a:visited
+{
+	
+	color:#888;
+}
+
+/*-----------------------------------*/
+/*Animated*/
+/*----------------------------------------*/
+
+.js--wp-1,
+.js--wp-2,
+.js--wp-3
+{
+	opacity: 0;
+	animation-duration:1s;
+}
+
+.js--wp-1 .animated,
+.js--wp-2 .animated,
+.js--wp-3 .animated
+{
+	opacity: 1;
+}

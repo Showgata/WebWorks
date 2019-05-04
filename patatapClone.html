@@ -1,0 +1,49 @@
+<html>
+<head>
+	<title>PataTapClone</title>
+	
+	<script type="text/javascript" src="paper-full.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.0.4/howler.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="patatapClone.css">
+	
+
+
+	<script type="text/paperscript" canvas="myCanvas">
+	
+	var s= new Howl({src:["A/bubbles.mp3"]});
+
+	var circles=[];
+
+
+	function onKeyDown(event)
+	{
+		s.play();
+		var maxPoint=new Point(view.size.width,view.size.height);
+
+		var random=Point.random();
+
+		var point=maxPoint*random;
+		var circle = new Path.Circle(point,500);
+		circle.fillColor = 'orange';
+		circles.push(circle);
+		
+	}
+
+
+	function onFrame(event){
+		for(var i=0;i<circles.length;i++)	{
+			circles[i].fillColor.hue += 1;
+			circles[i].scale(0.9);
+		}
+	}
+
+
+	
+	
+
+	</script>
+</head>
+<body>
+	<canvas id="myCanvas" resize></canvas>
+</body>
+</html>
